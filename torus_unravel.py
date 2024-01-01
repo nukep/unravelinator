@@ -22,7 +22,7 @@ stage.GetRootLayer().ImportFromString('''#usda 1.0
 
 def SkelRoot "skelroot" {
     def "mesh" (
-        references = @./torus-8x8.usdc@
+        references = @./torus-8x8.usd@
         prepend apiSchemas = ["SkelBindingAPI"]
     ) {
         int[] primvars:skel:jointIndices (
